@@ -45,7 +45,7 @@ The virtual enviroment is then created with `$ uv venv` and activated on Linux/m
 
 On windows, I, in order to enable the activation of the virtual enviroment,  needed to first run  
 ```shell
-(Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned) ; (& c:\Users\opinner\Desktop\Python\pinner2026_JPO_code\.venv\Scripts\Activate.ps1)
+(Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned) ; (& .venv\Scripts\Activate.ps1)
 ```
 and then
 ```shell
